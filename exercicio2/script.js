@@ -38,12 +38,12 @@ console.log(metades(listaNumeros));
 
 // console.log(metadesComMap);
 
-// //Usando callback
-// const imprime = (arrayNumeros, callback) => {
-//     const resposta = callback(arrayNumeros);
+//Usando callback
+const imprime = (arrayNumeros, callback) => {
+    const resposta = callback(arrayNumeros);
 
-//     console.log('Imprime operações', resposta);
-// };
+    console.log('Imprime operações', resposta);
+};
 
 imprime(listaNumeros, triplos);
 imprime(listaNumeros, metades);

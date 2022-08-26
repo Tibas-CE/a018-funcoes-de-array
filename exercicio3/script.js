@@ -18,3 +18,7 @@ const produtos = [
  });
 
  console.log(limpeza);
+
+ const nomes= limpeza.map((x) => x.nome)
+ console.log(nomes);
+
